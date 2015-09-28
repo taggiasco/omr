@@ -1,9 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="lib/activation.jar"/>
-	<classpathentry kind="lib" path="lib/mail.jar"/>
-	<classpathentry kind="lib" path="lib/PDFRenderer.jar"/>
-	<classpathentry kind="output" path="bin"/>
+  <classpathentry kind="src" path="src\main\java"/>
+  <classpathentry kind="lib" path=".\lib\activation-2.2.1.jar"/>
+  <classpathentry kind="lib" path=".\lib\imgscalr-lib-4.2.jar"/>
+  <classpathentry kind="lib" path=".\lib\java-mail-1.4.jar"/>
+  <classpathentry kind="lib" path=".\lib\PDFRenderer-0.9.1.jar"/>
+  <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+  <classpathentry kind="lib" path="C:\Users\Matthieu\.ivy2\cache\org.scoverage\scalac-scoverage-runtime_2.11\jars\scalac-scoverage-runtime_2.11-1.0.1.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Matthieu\.ivy2\cache\org.scoverage\scalac-scoverage-plugin_2.11\jars\scalac-scoverage-plugin_2.11-1.0.1.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Matthieu\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="output" path="bin"/>
 </classpath>
