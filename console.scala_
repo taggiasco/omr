@@ -1,0 +1,23 @@
+val f = new java.io.File("projet-omr-mt")
+
+import omr._
+val des = new Deserializer()
+
+val project = des.loadProject(f)
+
+val sheetStructure = project.getSheetStructure()
+
+project.calculateAnswers()
+val sheets = project.getSheetsContainer().getSheets()
+val sheet = project.getSheetsContainer().getSheet("Formulaire de test.pdf(0)")
+
+sheet.analyze(sheetStructure project.getHistogram())
+java.lang.IllegalArgumentException: Width (0) and height (0) cannot be <= 0
+  at java.awt.image.DirectColorModel.createCompatibleWritableRaster(DirectColorModel.java:1016)
+  at java.awt.image.BufferedImage.<init>(BufferedImage.java:331)
+  at org.imgscalr.Scalr.createOptimalImage(Scalr.java:2006)
+  at org.imgscalr.Scalr.scaleImage(Scalr.java:2133)
+  at org.imgscalr.Scalr.resize(Scalr.java:1667)
+  at org.imgscalr.Scalr.resize(Scalr.java:1415)
+  at omr.Sheet.getUnalignedBuffer(Sheet.java:376)
+

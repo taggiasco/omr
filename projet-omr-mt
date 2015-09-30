@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omr-project blackThreshold="220" version="0.1" whiteThreshold="220">
+    <structure referenceSheet="Formulaire de test.pdf(0)">
+        <bubble-group bottomY="266" bubbleHeight="13" bubbleWidth="13"
+            columns="1" indexOffset="0" leftX="114" rightX="119"
+            rows="3" topY="224" type="vertical">
+            <answer-key>1,2,3</answer-key>
+        </bubble-group>
+        <bubble-group bottomY="375" bubbleHeight="13" bubbleWidth="13"
+            columns="1" indexOffset="0" leftX="115" rightX="119"
+            rows="3" topY="333" type="vertical">
+            <answer-key>1,2,3</answer-key>
+        </bubble-group>
+        <bubble-group bottomY="514" bubbleHeight="13" bubbleWidth="13"
+            columns="1" indexOffset="0" leftX="115" rightX="119"
+            rows="4" topY="453" type="vertical">
+            <answer-key>1,2,3,4</answer-key>
+        </bubble-group>
+        <bubble-group bottomY="734" bubbleHeight="13" bubbleWidth="13"
+            columns="1" indexOffset="0" leftX="115" rightX="120"
+            rows="1" topY="734" type="vertical">
+            <answer-key>1</answer-key>
+        </bubble-group>
+    </structure>
+    <answers>
+        <sheet id="Formulaire de test.pdf(0)" page="0" rotation="0" src="Formulaire de test.pdf"/>
+    </answers>
+</omr-project>
